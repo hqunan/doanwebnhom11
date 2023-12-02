@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 4px #ddd;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+    height: 620px;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.item .imgg,.number,.price,.name,.num,.price,.name {
+    flex:1;
+    text-align: left;
+}
+.item .action {
+    text-align: center;
+    flex:1;
+}
+.item .price .historical {
+    text-decoration: line-through;
+    color:#888;
+}
+.item .price .sale {
+    color:orangered;
+}
+.item .action .delete:hover{
+    color: orangered;
+}
+h1 {
+    text-align: center;
+    height: 45px;
+    background-color: black;
+    color: #ddd;
+}
+.title{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: black solid 2px;
+    padding-bottom: 5px;
+}
+.title .item {
+    align-items: center;
+}
+.title .item .imgg {
+    width: 60px;
+}
+.title .item .price {
+    padding-left: 35px;
+}
+.title .item .name {
+    padding-left: 25px;
+}
+.title .item .number {
+    padding-right: 45px ;
+}
+a.buttom {
+    max-width: 150px;
+    margin-left: 700px ;
+    text-align: center;
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background: rgb(255, 72, 26);
+}
+a.buttom:hover{
+    background: rgba(17,107,143,0.8);  
+}
