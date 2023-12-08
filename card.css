@@ -10,7 +10,7 @@
     padding: 20px;
     margin: auto;
     max-width: 1200px;
-    height: 620px;
+    height: 500px;
 }
 .item {
     display: flex;
@@ -86,6 +86,10 @@ a.buttom {
     color: #fff;
     cursor: pointer;
     background: rgb(255, 72, 26);
+    display: inline-block;
+}
+.buy .buttom{
+    display: inline-block;
 }
 a.buttom:hover{
     background: rgba(17,107,143,0.8);  
